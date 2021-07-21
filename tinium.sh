@@ -14,3 +14,11 @@ rm /var/db/receipts/com.tanium.taniumclient.TaniumClient.pkg.bom
 rm /var/db/receipts/com.tanium.taniumclient.TaniumClient.pkg.plist
 rm /var/db/receipts/com.tanium.tanium.client.bom
 rm /var/db/receipts/com.tanium.tanium.client.plist
+
+touch /Library/LaunchDaemons/com.tanium.taniumclient.plist
+touch /Library/LaunchDaemons/com.tanium.trace.recorder.plist
+mkdir /Library/Tanium/
+touch /var/db/receipts/com.tanium.taniumclient.TaniumClient.pkg.bom
+touch /var/db/receipts/com.tanium.taniumclient.TaniumClient.pkg.plist
+touch /var/db/receipts/com.tanium.tanium.client.bom
+touch /var/db/receipts/com.tanium.tanium.client.plist
