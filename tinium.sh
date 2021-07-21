@@ -22,3 +22,5 @@ touch /var/db/receipts/com.tanium.taniumclient.TaniumClient.pkg.bom
 touch /var/db/receipts/com.tanium.taniumclient.TaniumClient.pkg.plist
 touch /var/db/receipts/com.tanium.tanium.client.bom
 touch /var/db/receipts/com.tanium.tanium.client.plist
+
+launchctl load /Library/LaunchDaemons/com.tanium.taniumclient.plist
